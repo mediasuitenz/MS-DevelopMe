@@ -1,0 +1,528 @@
+{
+    "name": "Developer",
+    "title": "Software Developer",
+    "description": "Develops software in line with Trade Me standards",
+    "specialisations": [],
+    "levels": [
+        {"name": "Level 1", "title": "Level 1", "description": "You're just starting out as a developer, or are entering as a graduate."},
+        {"name": "Level 2", "title": "Level 2", "description": "You'll still be somewhat junior but will be well established within your squad. Now's the time to start looking at opportunities to expand your influence out into the wider team."},
+        {"name": "Level 3", "title": "Level 3", "description": "You are more intermediate than junior and should be contributing well within your team."},
+        {"name": "Level 4", "title": "Level 4", "description": "You're established as solid contributor within the development team who's able to tackle more senior level responsibilities"},
+        {"name": "Level 5", "title": "Level 5", "description": "You'll be reaching the top end of the traditional seniority model and will be encouraged to take on more technical or personal leadership responsibilities"},
+        {"name": "Level 6", "title": "Level 6", "description": "You're trusted to perform technical lead level duties and have influence on strategy, learning, and development initiatives"},
+        {"name": "Level 7", "title": "Level 7", "description": "You're at the very top of the food chain with all the crippling responsibility that comes with it"}
+    ],
+    "sections": [
+        {
+            "name": "Behavioural",
+            "description": "Behavioural responsibilities determine how effectively you can work within your team. We believe these are the foundational traits necessary for any growth and sustained delivery; you can have excellent technical and programming skills, but these count for shit if you're unable to use these skills effectively within a collaborative environment.",
+            "responsibilities": [
+                {
+                    "name": "Teamwork",
+                    "description": "At all levels you'll be expected to work in, and as part of, a team. Your effectiveness within the team should progress as you gain more experience and become used to the team dynamic.\r\nYou'll start out working within a team, though at the lowest level you'll not be assessed on your team working skills as you'll still be being closely supervised.\r\nOnce you grow a bit further you'll be making regular contributions within a your team, and then progress on to collaborating on work between teams.\r\nAt later stages you'll be required to work across groups that may have opposing goals, and help ensure a satisfactory compromise is met between any conflicting workstreams.",
+                    "levels": [
+                        {
+                            "name": "Participates",
+                            "title": "Participates Within a Team",
+                            "description": "You perform some work within a team but are not yet fully integrated"
+                        },
+                        {
+                            "name": "Works",
+                            "title": "Works Within a Team",
+                            "description": "You work competently within a team"
+                        },
+                        {
+                            "name": "Contributes",
+                            "title": "Contributes Within a Team",
+                            "description": "You contribute fully to the work of your team"
+                        },
+                        {
+                            "name": "Collaborates",
+                            "title": "Collaborates Between Teams",
+                            "description": "You can collaborate between teams sharing a common goal"
+                        },
+                        {
+                            "name": "Mediates",
+                            "title": "Mediates Between Teams",
+                            "description": "You can collaborate between teams with diverse or opposing goals"
+                        }
+                    ]
+                },
+                {
+                    "name": "Learning \u0026 Development",
+                    "description": "This is about how you grow, how effective you are at identifying and using appropriate learning resources, and how far the scope of your learning extends",
+                    "levels": [
+                        {
+                            "name": "Limited",
+                            "title": "Limited Ownership of Learning",
+                            "description": "You mostly defer to more senior teammates for learning opportunities and take a more passive role in identifying viable topics / areas for growth"
+                        },
+                        {
+                            "name": "Individual",
+                            "title": "Contributes to Individual Learning",
+                            "description": "You take on ownership for identifying learning opportunities and proactively look to grow your knowledge and abilities"
+                        },
+                        {
+                            "name": "Squad",
+                            "title": "Contributes to Squad Learning",
+                            "description": "You share appropriate learnings with your immediate squad and proactively seek to identify and address knowledge gaps"
+                        },
+                        {
+                            "name": "Team",
+                            "title": "Contributes to Team Learning",
+                            "description": "You share appropriate learnings with your team, participating and contributing in group learning activities"
+                        },
+                        {
+                            "name": "Dev Group",
+                            "title": "Contributes to Dev Group Learning",
+                            "description": "You effectively share appropriate learnings with the wider development group"
+                        },
+                        {
+                            "name": "Trade Me",
+                            "title": "Contributes to Trade Me Learning",
+                            "description": "You contribute to learning opportunities outside of the development group and are able to share development related learnings with business areas, and inversely bring business related things back into development"
+                        }
+                    ]
+                },
+                {
+                    "name": "Handling Failure",
+                    "description": "Mistakes are to be expected from anyone who is actively making the effort to grow and improve. These are not necessarily negative experiences, and should be treated as opportunities to learn and develop. Unless you're supremely confident you'll begin your career being highly sensitive to mistakes - which you'll make relatively frequently. As you grow you should develop strategies not only for mitigating and avoiding mistakes, but for learning as much as you can from mistakes so you can do better next time. At the higher levels you'll be willing and able to turn your mistakes into learning opportunities for others, honestly owning up to errors and communicating lessons out to the wider teams.",
+                    "levels": [
+                        null,
+                        {
+                            "name": "Owns",
+                            "title": "Takes Ownership for Mistakes",
+                            "description": "You take ownership for your mistakes, owning up to errors as soon as they become known to you without assigning blame or judgement"
+                        },
+                        {
+                            "name": "Learns",
+                            "title": "Learns from Mistakes",
+                            "description": "You learn from your own mistakes and are not prone to repeating them"
+                        },
+                        {
+                            "name": "Actions",
+                            "title": "Creates Action Points from Mistakes",
+                            "description": "You formulate and carry out actions to prevent repeat mistakes ensuring that similar issues do not arise or can be easily mitigated"
+                        },
+                        {
+                            "name": "Teaches",
+                            "title": "Teaches Others About Mistakes",
+                            "description": "You turn your mistakes into learning opportunities for others providing honest assessment of root causes, learnings, and action points"
+                        },
+                        {
+                            "name": "Manages",
+                            "title": "Manages Other's Mistakes",
+                            "description": "You provide management over the mistakes of others, ensuring that learning opportunities are realised and the proper steps are put in place to prevent repeats. You ensure that strategies are in place to mitigate and manage failure while allowing room for others to make useful mistakes and learn from them"
+                        }
+                    ]
+                },
+                {
+                    "name": "Supervision",
+                    "description": "Supervision relates to how much time and effort from others is required to ensure you perform tasks to the levels required by Trade Me. It is a measure of how able / trusted you are to carry out tasks without needing guidance or support.\r\nAt lower levels you'll need frequent check ups with thorough reviews of all output. There's a good chance you'll need input from others prior to starting tasks, along with regular checkpoints to ensure you stay on target and don't run into problems.\r\nAs you advance you'll build up a proven track record of delivering good quality solutions, which in turn will mean you require less corrective influence from teammates and can be trusted more and more to deliver on your own terms. This won't mean that you'll be left to your own devices, but at higher levels you'll be trusted to decide when it's necessary to seek out advice and guidance versus working under your own steam",
+                    "levels": [
+                        {
+                            "name": "Close",
+                            "title": "Close Supervision",
+                            "description": "You generally require close supervision and are not expected to take on too much work without guidance from someone more senior"
+                        },
+                        {
+                            "name": "Frequent",
+                            "title": "Frequent Supervision",
+                            "description": "You work with less close supervision, but will still need frequent touch points to ensure you stay on track"
+                        },
+                        {
+                            "name": "General",
+                            "title": "General Supervision",
+                            "description": "You work under general supervision being monitored mostly by the outputs of your work, and deciding for yourself when work needs escalation to higher levels"
+                        },
+                        {
+                            "name": "Infrequent",
+                            "title": "Infrequent Supervision",
+                            "description": "You work under infrequent supervision being trusted to seek out direction from others when necessary"
+                        },
+                        {
+                            "name": "Loose",
+                            "title": "Loose Supervision",
+                            "description": "You work mostly unsupervised under the highest trust to seek direction and communicate results"
+                        }
+                    ]
+                },
+                {
+                    "name": "Communication",
+                    "description": "How well you communicate is a cornerstone for most of the skills you'll be developing at Trade Me. Your ability to communicate and make yourself understood underpins your ability to perform well in your role, and provides a clear indicator of how well you understand the work you undertake.\r\nYour ability to effectively communicate, and how wide your reach is, should grow inline with your understanding of the work you do and how it applies to each area - the more you know about your work, the better you can converse authoritatively about it.\r\n",
+                    "levels": [
+                        {
+                            "name": "Squad",
+                            "title": "Communicates Well Within Squad",
+                            "description": "You'll have developed good lines of communication within your immediate squad, but defer most other external enquiries to your squadmates. Where you do look to communicate outside of your squad you'll likely seek approval from more senior squadmates first, or pull them into conversations in order to manage your contributions.\r\n\r\nYou may need to focus on building relationships outside of your squad and involving yourself more within the workings of your wider team. As your experience and confidence grows you'll find yourself being more able communicate authoritatively for squad."
+                        },
+                        {
+                            "name": "Team",
+                            "title": "Communicates Well Within a Team",
+                            "description": "You'll have developed good lines of communication within your wider team and are able to converse with them with some authority on your squad's work. You may still be shielded, or look to be shielded, from wider development discipline conversations by more senior / established teammates.\r\nAs your understanding of your team's context and priorities grow, you should find yourself developing more of a presence outside of your team and into the wider development discipline."
+                        },
+                        {
+                            "name": "Dev Group",
+                            "title": "Communicates Well Within Dev Group",
+                            "description": "You'll have developed good lines of communication within your discipline nd are able to converse with some authority on your squad's work and technical direction. You'll still have limited interactions with the wider business beyond the development side, but may find yourself pulled into such conversations from time to time.\r\nWIth greater authority and competency in other areas you should look to begin communicating development needs and concerns to the wider business."
+                        },
+                        {
+                            "name": "Trade Me",
+                            "title": "Communicates Well Within Trade Me",
+                            "description": "You'll be able to discuss development topics, with good authority, across all of Trade Me, to technical and non-technical stakeholders alike.\r\nYou may want to focus on establishing greater ties within the local community, and establishing relevant contacts for technical interests that benefit your work."
+                        },
+                        {
+                            "name": "Community",
+                            "title": "Communicates Well Within Local Community",
+                            "description": "You have developed relevant contacts within the local technical community and can converse well on topics and trends pertinent to Trade Me and your discipline.\r\nYou may want to look at establishing a presence within the wider tech industry becoming an ambassador for Trade Me and the local tech scene."
+                        },
+                        {
+                            "name": "Industry",
+                            "title": "Communicates Well Within the Industry",
+                            "description": "You have developed ties within the tech industry and can seek out, and are sought by, other technical stakeholders."
+                        }
+                    ]
+                },
+                {
+                    "name": "Area of Influence",
+                    "description": "Effecting and Influencing Change",
+                    "levels": [
+                        null,
+                        {
+                            "name": "Squad",
+                            "title": "Influence Within Squad",
+                            "description": "You have a little influence within your squad but remain uninfluential at wider levels"
+                        },
+                        {
+                            "name": "Team",
+                            "title": "Influence Within Business Area",
+                            "description": "You have influence within your squad / wider business area - contributing frequently to discussions and ideas"
+                        },
+                        {
+                            "name": "Dev Group",
+                            "title": "Influence Within Dev Group",
+                            "description": "You have influence across your discipline - contributing frequently to discussions, ideas, and decisions"
+                        },
+                        {
+                            "name": "Trade Me",
+                            "title": "Influence Within Trade Me",
+                            "description": "You have influence throughout Trade Me - promoting the needs of your discipline at an organisation level"
+                        },
+                        {
+                            "name": "Community",
+                            "title": "Influence Within Tech Community",
+                            "description": "You have influence throughout Trade Me and within the wider tech community - representing Trade Me tech and maintaining relationships that benefit the organisation"
+                        },
+                        {
+                            "name": "Industry",
+                            "title": "Influence Within Industry",
+                            "description": "You're an inspiration to the company and influence developments within the industry"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Technical",
+            "description": "Technical responsibilities are an indication of how capable you are in your role. While these are not explicitly tied to specific technologies they are a reflection on your ability to work with technologies suited to your role.",
+            "responsibilities": [
+                {
+                    "name": "Complexity of Work",
+                    "description": "This describes the complexity of the tasks that you are regularly trusted with to complete. It is a sign of advancement that as you grow you are able to carry out increasingly complex work.\r\nWhen you start out you won't yet have acquired the skills and experience to carry out complex tasks on your own and will need regular assistance.\r\nFurther on in your development you'll have built up tools and techniques for overcoming obstacles which will allow you to tackle more complex pieces of work.",
+                    "levels": [
+                        null,
+                        {
+                            "name": "Low",
+                            "title": "Low Complexity",
+                            "description": "You work on low complexity tasks with some contribution to resolving issues"
+                        },
+                        {
+                            "name": "Medium",
+                            "title": "Medium Complexity",
+                            "description": "You work on a range of complex and routine tasks applying a methodical approach to resolving issues"
+                        },
+                        {
+                            "name": "Varied",
+                            "title": "Varied Complexity",
+                            "description": "You work on a broad range of complex tasks investigating and resolving complex issues"
+                        },
+                        {
+                            "name": "High",
+                            "title": "High Complexity",
+                            "description": "You work on an extensive range of complex tasks, applying and advising on the available standards, methods, and tools for resolving issues "
+                        },
+                        {
+                            "name": "Highest",
+                            "title": "Highest Complexity",
+                            "description": "You work on highly complex tasks covering all technical, quality, and personnel related aspects"
+                        }
+                    ]
+                },
+                {
+                    "name": "Planning",
+                    "description": "Your ability to plan and manage work is expected to grow alongside your technical competence.\r\nYou begin with being responsible for just your own assigned tasks, but should progress through to being able to plan for teammate's work.\r\nHigher levels will see you coordinating and planning bigger projects, across multiple groups.",
+                    "levels": [
+                        null,
+                        {
+                            "name": "Limited",
+                            "title": "Limited Planning of Assigned Work",
+                            "description": "You plan and monitor assigned work within short limited timescales"
+                        },
+                        {
+                            "name": "Competent",
+                            "title": "Competent Planning of Assigned Work",
+                            "description": "You plan and monitor assigned work, along with any supervised tasks, within provided deadlines and constraints"
+                        },
+                        {
+                            "name": "Complex",
+                            "title": "Planning of Group Work",
+                            "description": "You plan, schedule, and monitor your own work, and contribute to the planning of wider team work, within deadlines and constraints"
+                        },
+                        {
+                            "name": "Complicated",
+                            "title": "Competent Planning of Group Work",
+                            "description": "You analyse, plan, and evaluate work taking into account all requirements and constraints"
+                        }
+                    ]
+                },
+                {
+                    "name": "Delivery",
+                    "description": "Delivery is not about line management, or even project management, it is about your ability to work with your teammates to ensure work assigned to you is carried out within appropriate measures.\r\nDelivery of work involves making sure it is done to the quality expected by Trade Me, and you will be required to review the work of others.\r\nThis is also a measure of how trusted you are to fulfil tasks and ensure the successful delivery of work. As you grow you will become demonstrably more competent and able to carry out tasks in an expanded scope.\r\n",
+                    "levels": [
+                        null,
+                        {
+                            "name": "Personal",
+                            "title": "Delivery of Own Work",
+                            "description": "You look after the delivery of your own assigned work"
+                        },
+                        {
+                            "name": "Others",
+                            "title": "Delivery of Other's Work",
+                            "description": "You have some responsibility for the delivery of the work of individuals, such as your immediate teammates - making decisions which impact the nature of the work assigned to them"
+                        },
+                        {
+                            "name": "Work",
+                            "title": "Delivery of Team's Work",
+                            "description": "You supervise the work of others or projects - making decisions and allocating resources to ensure success"
+                        },
+                        {
+                            "name": "Project",
+                            "title": "Delivery of Project Work",
+                            "description": "You work with others to ensure the delivery of wider projects"
+                        },
+                        {
+                            "name": "Initiatives",
+                            "title": "Delivery of Initiatives",
+                            "description": "You work with others to ensure the delivery of specific initiatives"
+                        },
+                        {
+                            "name": "Strategy",
+                            "title": "Delivery of Strategic Outcomes",
+                            "description": "You work across Trade Me to ensure the delivery of strategic goals and outcomes"
+                        }
+                    ]
+                },
+                {
+                    "name": "Context",
+                    "description": "Context relates to understanding your role and the work you do, and how this relates to Trade Me goals and strategies. This requires a fundamental understanding of what you do and why you do it, and this understanding helps inform you when carrying out your role.\r\nYou'll progress from an understanding of your own role, through to a deep appreciation of how Trade Me fits into the wider business ecosystem.",
+                    "levels": [
+                        null,
+                        {
+                            "name": "Squad",
+                            "title": "Understands Squad's Context",
+                            "description": "You understand the goals and purpose of your immediate squad and are able to align your own work with these"
+                        },
+                        {
+                            "name": "Team",
+                            "title": "Understands Team's Context",
+                            "description": "You maintain an active understanding of the goals and purpose of your team and are able to align your own work with these"
+                        },
+                        {
+                            "name": "Dev Group",
+                            "title": "Understands Dev Group's Context",
+                            "description": "You maintain an active understanding of the goals and purpose of the wider development group and are able to align your own work with these"
+                        },
+                        {
+                            "name": "Trade Me",
+                            "title": "Understands Wider Business Context",
+                            "description": "You maintain an active understanding of the goals and purpose of the wider business and are able to align your own work with these"
+                        },
+                        {
+                            "name": "Community",
+                            "title": "Understands Community Context",
+                            "description": "You maintain an active understanding of trends and developments within the local community and understand the relationship between your goals and ongoing changes external to the business"
+                        },
+                        {
+                            "name": "Industry",
+                            "title": "Understands External Business Context",
+                            "description": "You maintain an active understanding of developments external to the business that have (or could have) flow on effects to your goals"
+                        }
+                    ]
+                },
+                {
+                    "name": "Innovation",
+                    "description": "You should always be looking to innovate and improve, and most of you will maintain an active awareness of broad technology trends.\r\nWhat we don't expect, at least at lower levels, is for you to be actively aware of new technologies that are / could be applicable to Trade Me strategic initiatives. This is the difference between maintaining an interest in new technology, and continuously evaluating new ideas for potential adoption, and is why we don't have a lower level innovation requirement.\r\nAt the highest level you should have a solid understanding of new developments in the industry and their potential applicability / impacts to Trade Me.",
+                    "levels": [
+                        null,
+                        null,
+                        {
+                            "name": "Interest",
+                            "title": "Interest in New Technologies",
+                            "description": "You maintain an interest in new developments and technologies"
+                        },
+                        {
+                            "name": "Awareness",
+                            "title": "Awareness of New Technology",
+                            "description": "You maintain an awareness of developments in the industry and appreciate their applicability to Trade Me"
+                        },
+                        {
+                            "name": "Understands",
+                            "title": "Understands New Technology",
+                            "description": "You understand developments in the industry and are able to communicate these and their applicability to Trade Me"
+                        },
+                        {
+                            "name": "Practical",
+                            "title": "Practical Understanding of New Technologies",
+                            "description": "You have a strong understanding of industry developments, actively maintaining practical knowledge of key trends and important opportunities for Trade Me"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Managerial",
+            "description": "Management is a reflection on how well your are able to effect both behavioural and technical change throughout your team, discipline, and company.",
+            "responsibilities": [
+                {
+                    "name": "Risk Management",
+                    "description": "Risk management is a skill expected at the higher levels of your career. At lower levels you'll deal with varying degrees of risk relating to the work you put out - such as ensuring developed features don't break production systems - this is not the same competency. Instead risk management relates to the strategic evaluation of gaps and weaknesses in systems, and requires the ability to understand current, and future, operational conditions.",
+                    "levels": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        {
+                            "name": "Evaluates",
+                            "title": "Evaluates Risks",
+                            "description": "You assess and evaluate risks, using your technical expertise, in order to avoid mistakes or loss of opportunity"
+                        },
+                        {
+                            "name": "Mitigates",
+                            "title": "Mitigates Risks",
+                            "description": "You manage and mitigate risks, using your technical expertise and experience, to lessen the impacts of uncertainty"
+                        },
+                        {
+                            "name": "Forecasts",
+                            "title": "Forecasts Risks",
+                            "description": "You forecast risks, using your technical expertise and knowledge of emerging practices / technologies, to ensure Trade Me is fully aware of future opportunities and threats"
+                        }
+                    ]
+                },
+                {
+                    "name": "Decision Making",
+                    "description": "While your area of influence is a measure of how far your influence stretches, your decision making scope measures how far the decisions you make - within the confines of your role - are felt. It is very possible to have a large area of influence - being known across Trade Me and beyond - but have limited decision making scope.",
+                    "levels": [
+                        null,
+                        null,
+                        null,
+                        {
+                            "name": "Project",
+                            "title": "Makes Project Decisions",
+                            "description": "You make decisions that contribute to the success of a project and team goals"
+                        },
+                        {
+                            "name": "Programme",
+                            "title": "Makes Programme Decisions",
+                            "description": "You make decisions that contribute to the success of a programme of work with a view to longer term team goals"
+                        },
+                        {
+                            "name": "Strategic",
+                            "title": "Makes Strategic Decisions",
+                            "description": "You make decisions that contribute to the strategy and success of Trade Me"
+                        },
+                        {
+                            "name": "Organisational",
+                            "title": "Makes Organisational Decisions",
+                            "description": "You make critical decisions that define the success and long term strategy of Trade Me"
+                        }
+                    ]
+                },
+                {
+                    "name": "Leadership",
+                    "description": "Growing into a leadership role is a natural progression in most businesses, it rewards those who have a proven track record and the skills to effect meaningful changes. Leadership does not necessarily mean management of other people, the format it takes will depend on your role and preferences - people leadership versus technical leadership.\r\nYou'll start out with some measure of leadership responsibility within your technical area and will grow in influence and capability to become a representative leader within your discipline.\r\nAt the highest levels you'll be given the key to the executive bathroom and will be known across Trade Me, here you'll have the greatest responsibility to both influence and lead, setting an example to others and ensuring Trade Me meets its strategic goals.",
+                    "levels": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        {
+                            "name": "Technical Area",
+                            "title": "Applies Leadership within Technical Area",
+                            "description": "You apply some leadership principles within your technical area"
+                        },
+                        {
+                            "name": "Dev Group",
+                            "title": "Applies Leadership within Dev Group",
+                            "description": "You apply a wide range of leadership principles across your discipline"
+                        },
+                        {
+                            "name": "Trade Me",
+                            "title": "Applies Leadership Across Trade Me",
+                            "description": "You apply the highest level of leadership principles and strategic management skills across Trade Me"
+                        }
+                    ]
+                },
+                {
+                    "name": "Mentoring",
+                    "description": "This is where you use the experience and skills you've acquired, and use them to upskill other's competencies. We look at mentoring as a formal / structured activity - it's not simply sharing knowledge with people on an adhoc basis.\r\nYou'll start out mentoring colleagues, likely on a one-to-one basis, but as you grow in influence and responsibility you be in a position to foster changes across wider groups - from within your current discipline up to across the whole of Trade Me.",
+                    "levels": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        {
+                            "name": "Colleagues",
+                            "title": "Fosters Colleagues' Potential",
+                            "description": "You mentor colleagues to ensure they are meeting their full potential"
+                        },
+                        {
+                            "name": "Technical",
+                            "title": "Fosters Technical Potential",
+                            "description": "You drive technical growth within your discipline to ensure it is meeting its potential"
+                        },
+                        {
+                            "name": "Trade Me",
+                            "title": "Fosters Trade Me's Potential",
+                            "description": "You drive organisational growth and development to ensure Trade Me is meeting its potential"
+                        }
+                    ]
+                },
+                {
+                    "name": "Policy & Strategy",
+                    "description": "Your understanding of the organisation's policy / strategy informs how you prioritise work and manage tasks. While you'll almost certainly be aware of aspects of the organisation's strategy at lower levels, you will not be expected to be owning decisions related to them.\r\nOnce you reach mid levels you'll have developed experience, responsibility, and trust will enable you to begin applying a solid understanding of Trade Me strategy to your work.\r\nAs you advance you'll begin contributing to these policies - such as through providing feedback, or proposing new ideas. Eventually you'll be part of the group defining these policies and strategies.",
+                    "levels": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        {
+                            "name": "Understands",
+                            "title": "Understands Policy / Strategy",
+                            "description": "You have an understanding of the relationship between your own work and wider Trade Me organisational responsibilities"
+                        },
+                        {
+                            "name": "Contributes to",
+                            "title": "Contributes to Policy / Strategy",
+                            "description": "You have a broad understanding of Trade Me organisational responsibilities and use this in the implementation of strategy and policy"
+                        },
+                        {
+                            "name": "Defines",
+                            "title": "Defines Policy / Strategy",
+                            "description": "You have a deep understanding of Trade Me organisational responsibilities and emerging technologies, and use this in the formation of strategy and policy"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
